@@ -1,22 +1,17 @@
 {
   "name": "my-express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KeanuTomatoMomotaro/express-signin-button.git"
-  },
-  "author": "Keanu Nurherbyanto (KeanuMomotaro)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KeanuTomatoMomotaro/express-signin-button/issues"
-  },
-  "homepage": "https://github.com/KeanuTomatoMomotaro/express-signin-button#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
   }
 }
